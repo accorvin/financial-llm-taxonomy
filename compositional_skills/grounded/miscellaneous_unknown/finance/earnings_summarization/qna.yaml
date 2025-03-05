@@ -1,0 +1,129 @@
+version: 3
+task_description: "Improve financial earnings summaries by enforcing a structured format."
+created_by: "accorvin"
+seed_examples:
+  - question: "Can you summarize IBM's fourth-quarter 2023 earnings report?"
+    context: |
+      IBM reported fourth-quarter 2023 revenue of $17.4 billion, a 4% year-over-year increase.
+      Software revenue reached $7.5 billion, up 5%, led by Red Hat (8% growth) and Data & AI (5% growth).
+      Consulting revenue grew 5% to $4.9 billion, driven by Business Transformation and Cloud Platform Services.
+      Infrastructure revenue remained flat at $4.4 billion, with Hybrid Infrastructure declining 3% but Z Systems growing 10%.
+      Net income was $3.3 billion, with GAAP EPS of $3.55 (up 17%) and non-GAAP EPS of $3.87 (up 9%).
+      Free cash flow for the quarter was $6.1 billion, bringing the total to $11.2 billion for 2023.
+      IBM's CEO highlighted the company's continued focus on hybrid cloud and AI as key growth drivers.
+      For 2024, IBM expects mid-single-digit revenue growth and projects ~$12 billion in free cash flow.
+    answer: |
+      **IBM Q4 2023 Earnings Summary**
+
+      - **Total Revenue:** $17.4 billion (**+4% YoY**)
+      - **Segment Performance:**
+        - **Software:** $7.5 billion (**+5% YoY**), led by **Red Hat (+8%)** and **Data & AI (+5%)**
+        - **Consulting:** $4.9 billion (**+5% YoY**), driven by **Business Transformation & Cloud Platform Services**
+        - **Infrastructure:** $4.4 billion (**flat YoY**), with **Hybrid Infrastructure down 3%** and **Z Systems up 10%**
+      - **Net Income:** $3.3 billion
+      - **GAAP EPS:** $3.55 (**+17% YoY**)
+      - **Non-GAAP EPS:** $3.87 (**+9% YoY**)
+      - **Free Cash Flow:** $6.1 billion in Q4, totaling **$11.2 billion for 2023**
+      - **CEO Commentary:** IBM remains focused on **hybrid cloud & AI-driven consulting services**
+      - **2024 Outlook:** **Mid-single-digit revenue growth** expected, with projected **free cash flow of ~$12 billion**
+
+      IBM's strong Q4 results were driven by **steady software and consulting growth**, while infrastructure remained stable. The company continues to prioritize **hybrid cloud and AI adoption**, positioning itself for **continued growth in 2024**.
+  - question: "Can you summarize IBM's third-quarter 2023 earnings report?"
+    context: |
+      IBM reported third-quarter 2023 revenue of $14.8 billion, a 5% year-over-year increase.
+      Software segment revenue rose nearly 8%, excluding currency impacts, driven by resilient demand and the acquisition of Apptio.
+      Infrastructure segment revenue was $3.3 billion, down 2.4%, with Hybrid Infrastructure up 1% and zSystems up 9%.
+      Net income for the quarter was $2.2 billion, with earnings per share (EPS) of $2.20, surpassing expectations.
+      The company generated $1.7 billion in free cash flow during the quarter and returned $1.5 billion to shareholders in dividends.
+      IBM ended the quarter with $11.0 billion in cash and marketable securities, up $2.2 billion from year-end 2022.
+      The company reiterated its annual targets for revenue growth and free cash flow generation.
+    answer: |
+      **IBM Q3 2023 Earnings Summary**
+
+      - **Total Revenue:** $14.8 billion (**+5% YoY**)
+      - **Segment Performance:**
+        - **Software:** Nearly 8% growth, driven by resilient demand and the Apptio acquisition
+        - **Infrastructure:** $3.3 billion (**-2.4% YoY**)
+          - **Hybrid Infrastructure:** +1%
+          - **zSystems:** +9%
+      - **Net Income:** $2.2 billion
+      - **Earnings Per Share (EPS):** $2.20, exceeding expectations
+      - **Free Cash Flow:** $1.7 billion in Q3
+      - **Shareholder Returns:** $1.5 billion in dividends
+      - **Cash and Marketable Securities:** $11.0 billion, an increase of $2.2 billion since year-end 2022
+      - **Outlook:** IBM maintains its annual targets for revenue growth and free cash flow generation
+
+      IBM's third-quarter performance highlights robust growth in its Software segment and effective cash management, positioning the company well for future objectives.
+  - question: "What were Microsoft's financial results for the fourth quarter of fiscal year 2023?"
+    context: |
+      Microsoft reported fourth-quarter fiscal year 2023 revenue of $56.2 billion, an 8% increase year-over-year.
+      Net income for the quarter was $20.1 billion, representing a 20% increase.
+      The company's Intelligent Cloud segment generated $24.0 billion in revenue, up 17%, with Azure and other cloud services growing 26%.
+      The Productivity and Business Processes segment reported $18.3 billion in revenue, a 10% increase, driven by Office 365 Commercial and LinkedIn.
+      More Personal Computing revenue was $13.9 billion, a 4% decrease, with Windows OEM revenue down 12% and Devices revenue down 20%.
+      Microsoft returned $9.7 billion to shareholders through share repurchases and dividends during the quarter.
+    answer: |
+      **Microsoft Q4 FY2023 Financial Highlights**
+
+      - **Total Revenue:** $56.2 billion (**+8% YoY**)
+      - **Net Income:** $20.1 billion (**+20% YoY**)
+      - **Segment Performance:**
+        - **Intelligent Cloud:** $24.0 billion (**+17% YoY**)
+          - **Azure and Other Cloud Services:** +26%
+        - **Productivity and Business Processes:** $18.3 billion (**+10% YoY**)
+          - Growth driven by **Office 365 Commercial** and **LinkedIn**
+        - **More Personal Computing:** $13.9 billion (**-4% YoY**)
+          - **Windows OEM Revenue:** -12%
+          - **Devices Revenue:** -20%
+      - **Shareholder Returns:** $9.7 billion through share repurchases and dividends
+
+      Microsoft's strong performance in cloud and productivity services offset declines in personal computing, reflecting the company's strategic focus on cloud growth.
+  - question: "Can you provide a summary of IBM's third-quarter 2024 earnings?"
+    context: |
+      In the third quarter of 2024, IBM reported revenue of $14.5 billion, a 2% decrease year-over-year.
+      The Software segment saw a 3% increase in revenue, driven by growth in Data & AI and Red Hat.
+      Consulting revenue was flat at $4.7 billion, with growth in Business Transformation offset by declines in Technology Consulting.
+      Infrastructure revenue declined by 5% to $3.1 billion, impacted by lower sales in zSystems and Storage.
+      Net income was $1.9 billion, with earnings per share of $2.10.
+      IBM generated $2.1 billion in free cash flow during the quarter and maintained $13.7 billion in cash and marketable securities.
+      The company expects fourth-quarter constant currency revenue growth consistent with the third quarter and anticipates more than $12 billion in free cash flow for the full year.
+    answer: |
+      **IBM Q3 2024 Earnings Summary**
+
+      - **Total Revenue:** $14.5 billion (**-2% YoY**)
+      - **Segment Performance:**
+        - **Software:** +3%, driven by **Data & AI** and **Red Hat**
+        - **Consulting:** Flat at $4.7 billion
+          - Growth in **Business Transformation** offset by declines in **Technology Consulting**
+        - **Infrastructure:** $3.1 billion (**-5% YoY**)
+          - Declines in **zSystems** and **Storage**
+      - **Net Income:** $1.9 billion
+      - **Earnings Per Share (EPS):** $2.10
+      - **Free Cash Flow:** $2.1 billion in Q3
+      - **Cash and Marketable Securities:** $13.7 billion
+      - **Outlook:** Anticipates more than $12 billion in free cash flow for the full year
+
+      IBM's third-quarter 2024 results reflect growth in its Software segment, while challenges persist in Infrastructure. The company remains on track to achieve its annual free cash flow target.
+  - question: "What are the key highlights from Microsoft's fourth-quarter 2024 earnings report?"
+    context: |
+      Microsoft reported revenue of $69.6 billion for the fourth quarter of 2024, a 12% increase year-over-year.
+      Net income was $24.1 billion, or $3.23 per share, exceeding analyst expectations.
+      The Intelligent Cloud segment generated $25.5 billion in revenue, up 19%, with Azure and other cloud services contributing significantly.
+      The Productivity and Business Processes segment saw a 14% increase in revenue to $29.4 billion, driven by Office 365 and LinkedIn.
+      The More Personal Computing segment remained steady at $14.7 billion, with declines in device sales offset by growth in Bing advertising revenue.
+      Microsoft plans to invest $80 billion in the coming year to expand its data centers and AI capabilities.
+    answer: |
+      **Microsoft Q4 2024 Financial Highlights**
+
+      - **Total Revenue:** $69.6 billion (**+12% YoY**)
+      - **Net Income:** $24.1 billion (**$3.23 per share, exceeding expectations**)
+      - **Segment Performance:**
+        - **Intelligent Cloud:** $25.5 billion (**+19% YoY**)
+          - **Azure and other cloud services:** Major growth contributors
+        - **Productivity and Business Processes:** $29.4 billion (**+14% YoY**)
+          - Growth driven by **Office 365** and **LinkedIn**
+        - **More Personal Computing:** $14.7 billion (**Steady YoY**)
+          - **Declines in device sales** offset by **Bing advertising revenue growth**
+      - **Strategic Investments:** Microsoft plans to invest **$80 billion** in expanding **data centers** and **AI capabilities** in the coming year.
+
+      Microsoft's Q4 2024 results highlight continued strong performance in cloud services and productivity tools, while the company prepares for significant AI-driven expansion.

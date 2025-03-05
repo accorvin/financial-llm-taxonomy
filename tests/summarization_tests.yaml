@@ -1,0 +1,8 @@
+test_cases:
+  - input: "Summarize IBM's Q4 2023 earnings report."
+    expected_output_contains:
+      - "📌 IBM Q4 2023 Earnings Summary"
+      - "📊 **Revenue:**"
+      - "💰 **Profitability & Cash Flow:**"
+      - "📈 **Business Segments:**"
+      - "🔎 **Key Takeaways:**"

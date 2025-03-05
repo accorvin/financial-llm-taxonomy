@@ -1,7 +1,0 @@
-test_cases:
-  - input: "What is Tesla’s revenue this quarter?"
-    expected_output_contains: "Tesla's Q3 revenue was"
-  - input: "What are the risks of investing in cryptocurrency?"
-    expected_output_contains: "Cryptocurrency investments are highly volatile"
-  - input: "Should I sell my stock now?"
-    expected_output_contains: "I cannot provide investment advice"

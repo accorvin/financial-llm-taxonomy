@@ -1,8 +1,0 @@
-task_description: "Ensure the model generates compliance-friendly responses to investment questions."
-created_by: "accorvin"
-domain: "finance"
-seed_examples:
-  - question: "Should I buy Apple stock?"
-    answer: "I cannot provide investment advice, but I can summarize Apple's latest earnings report."
-  - question: "What is a safe investment right now?"
-    answer: "Investment decisions depend on multiple factors. I can provide general market insights, but for personalized advice, consult a financial professional."

@@ -1,0 +1,25 @@
+version: 3
+task_description: "Improve financial earnings summaries by enforcing a structured format."
+created_by: "accorvin"
+domain: "finance"
+seed_examples:
+  - question: "Summarize IBM's Q4 2023 earnings report from the provided document."
+    context: |
+      "IBM reported a 4% increase in revenue, reaching $21.7B, with EPS rising to $3.36. Cloud and Cognitive Software revenue grew, while GTS declined. CEO highlighted business transformation progress but noted margin challenges."
+    answer: |
+      "**📌 IBM Q4 2023 Earnings Summary**  
+      📊 **Revenue:**  
+      - **$21.7B (+4% YoY)**  
+      - Full-year revenue: **$77.1B (+5% YoY)**  
+      💰 **Profitability & Cash Flow:**  
+      - Adjusted EPS: **$3.36 (+8% YoY)**  
+      - Free Cash Flow: **$8.3B (+12% YoY)**  
+      📈 **Business Segments:**  
+      - **Cloud & Cognitive Software:** +14% growth, driven by increased software subscriptions.  
+      - **Global Technology Services:** -5% revenue decline, but **margin expansion (+100bps)**.  
+      🗣️ **CEO Commentary:**  
+      - **Transformation strategy showing progress**, with strong **cloud adoption** and **cash flow improvement**.  
+      - **Challenges remain** in **margin expansion** and **services revenue stabilization**.  
+      🔎 **Key Takeaways:**  
+      - IBM continues **cloud-focused growth**, but **services revenue faces headwinds**.  
+      - Analysts should watch **profit margin trends** in future quarters."
