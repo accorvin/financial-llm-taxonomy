@@ -1,8 +1,0 @@
-task_description: "Teach the model key financial terms and definitions."
-created_by: "accorvin"
-domain: "finance"
-seed_examples:
-  - question: "What is EBITDA?"
-    answer: "EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization. It measures a company's profitability before accounting for these expenses."
-  - question: "What is the difference between revenue and net income?"
-    answer: "Revenue is the total income from sales, while net income is revenue minus all expenses, including taxes and operating costs."
